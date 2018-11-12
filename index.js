@@ -2,6 +2,6 @@
 
 const logDriverNames = function(drivers){
   drivers.forEach(function(item){
-    return item.name;
+    console.log(item.name);
   });
 }
