@@ -5,3 +5,6 @@ const logDriverNames = function(drivers){
     console.log(item.name);
   });
 }
+const logDriversByHometown = function(drivers) {
+  
+}
