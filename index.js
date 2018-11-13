@@ -24,9 +24,3 @@ const driversByName = function(drivers){
     return a.name.toLocalCompare(b.name);
   });
 }
-
-const driversByRevenue = function(drivers){
-  return drivers.slice().sort(function(a, b){
-    return a.revenue-b.revenue;
-  });
-};
